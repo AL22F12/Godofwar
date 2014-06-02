@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Good of War</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+               
+        
+        <link href="css/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="css/good.min.css">
+
+    
+    <style>
+  .panel-content {
+    padding: 1em;
+  }
+
+
+
+  #vista
+  {
+	  position:absolute;
+	  left:30%;
+
+  }
+  
+  
+  #logo
+  {
+	  position:absolute;
+	  top:84px;
+	  left:10%;
+  }
+
+#vista img {
+    -webkit-transition:1s;
+			  opacity: 0;  
+}
+#vista img.clicked{
+     opacity:1.0;
+ }
+  
+  
+  #logo img {
+    -webkit-transition:1s;
+}
+#logo img.clicked{
+     opacity:0;
+ }
+
+  
+  </style>
+    
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script src="js/acciones.js"></script>        
+        
+
+
+
+        
+        <!-- necesario*/ -->
+    </head>
+    
+    <body>
+
+     
+
+           
+<div data-role="page" id="bienvenida" data-theme="a">
+
+	
+    <div data-role="content">	
+
+    <div id="logo" align="center" ><img src="imagenes/god of.jpg" width="101" height="72">
+    </div>
+    <div id="vista" align="center">
+
+<img src="imagenes/Poseidon.jpg" width="154" height="260" alt="">
+<P>Es hora de Guerraa!!!</P>
+    </div>
+
+	<audio id="roar" preload="auto" src="audio/roar.mp3">
+       </audio>
+    </div>
+    
+
+</div>
+
+
+    
+        <div data-role="page" id="principal" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1> Good Of War </h1>
+        <div align="center">
+        <a href="#defaultpanel" data-role="button" data-icon="myapp-rex" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+        
+	</div>
+    
+      
+
+
+     
+	<div data-role="content">	
+     <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+      <p> God of War (Literalmente en español Dios de la Guerra) es una serie de videojuegos  en 3.ª persona creada por SCE Santa Monica Studio  y distribuida por Sony Computer Entertainment . Se basa en las aventuras de un semidiós  griego , Kratos , quién se enfrenta a diversos personajes de la mitología griega , tanto héroes (Hércules , Teseo , Perseo , etc.) y especies mitológicas (tales como gorgonas , arpías , minotauros ) como Dioses griegos  (Ares , Poseidón , Zeus , entre otros) y Titanes (como Gaia  y Cronos ). Aunque el guerrero espartano  acostumbra enemistad con la mayoría de los Dioses, recibe ayuda de muchos de ellos, en especial de Atenea .
+
+
+      </p>
+      <div align="center">
+
+<img src="imagenes/God-of-War.jpg" width="559" height="419" id="B_Vibrar">
+</div>
+     </div>
+	</div>
+    
+	<div data-role="footer" data-position="fixed">
+<h1>Victor Manuel Montes Hernandez</h1>	
+	</div>
+    
+<!-- Panel Menu  -->
+  <div data-role="panel" id="defaultpanel" data-theme="a" data-display="overlay">
+ 
+    <div class="panel-content" align="center">
+      <h3>Menú</h3>
+<img src="imagenes/go.jpg" width="170" height="74" alt="" id="A_beep">
+<div data-role="controlgroup">
+<a data-role="button" id="in">Inicios</a>
+<a data-role="button" id="ta_di">Las Tareas de los Dioses</a> 
+<a data-role="button" id="olim">El ascenso al olimpo</a>
+<a data-role="button" id="dios">El asecino de Dioses</a>
+<a data-role="button" id="ven">La venganza</a>
+<a data-role="button" id="ac">Acerca de!!</a>
+</div>
+
+      <a href="#demo-links" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-inline="true" id="B_Vibrar" >Cerrar</a>
+    </div><!-- /contenido del panel-->
+  </div><!-- /panel de menu -->
+    
+    
+</div>
+
+<div data-role="page" id="inicios" data-theme="a">
+	<div data-role="header" data-position="fixed">
+    
+		<h1>Inicios</h1>
+                <div align="center">
+        <a href="#principal" data-role="button" data-icon="home" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+	</div>
+	
+    <div data-role="content">
+    <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+    <p>
+    La infancia de Kratos es explicada durante el desarrollo del primer juego. Es maltratado como solía hacerse a los niños altos y fuertes en la antigua Grecia. A su hermano, al tener una marca que el oráculo predijo la portaría el que causara la perdición del Olimpo, lo secuestra Ares y lo lleva al reino de la muerte .
+
+Luego de recibir entrenamiento, Kratos, ya casado y con una hija, Calíope, se convierte en un gran general del ejército espartano, a pesar de las advertencias de su esposa, el guerrero prometió no detenerse hasta que la gloria de Esparta estuviera en lo más alto. Las tácticas de sus ejércitos eran brutales, pero muy efectivas. Pero un día, un enfrentamiento contra el batallón de bárbaros  dio un resultado adverso para su armada. Con su ejército destruido y apunto de ser asesinado por el líder bárbaro, Kratos pide la ayuda de Ares , el Dios de la Guerra, ofreciéndole su vida a cambio. El Dios desciende de los cielos y acaba con todos los enemigos, luego entrega a Kratos las Espadas del Caos, que son adheridas a sus brazos por cadenas.
+
+El guerrero espartano sucumbe totalmente al poder de Ares, quien le exige ciertas tareas de destrucción y conquista. Las tácticas del ejército de Kratos eran aún más brutales que antes, asesinando sangrientamente a cualquiera que opusiera alguna mínima resistencia. En una de sus misiones, Kratos debía quemar una aldea que se oponía a la armada de Esparta. En su afán de sangre y gloria, Kratos quiso ingresar al templo de la aldea, el oráculo  del pequeño pueblo le advierte que no tenía que entrar a aquel santuario, el guerrero la hace a un lado e ingresa, asesinando con sus espadas a todos los presentes. Cuando lanzó por última vez sus espadas hacia sus víctimas, entendió que había asesinado a su esposa e hija. Kratos queda devastado y como castigo por tal acción y su brutalidad, Kratos tendría pegadas sobre su piel, las cenizas de su esposa e hija por la eternidad; aunque Ares le explica que hizo eso para convertirlo en el guerrero perfecto, aun así, el guerrero espartano renunció a seguir siendo el súbdito del dios de la guerra.
+</p>
+<div align="center">
+<img src="imagenes/good_ofwar.jpg" width="283" height="367" alt="">
+
+    	
+   
+    
+    </div>
+	</div>
+    </div>
+    
+	<div data-role="footer" data-position="fixed">
+
+		<h1>Victor Manuel Montes Hernandez</h1>
+	</div>
+</div>
+
+<div data-role="page" id="tarea" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1>Las Tareas de los Dioses</h1>
+                <div align="center">
+        <a href="#principal" data-role="button" data-icon="home" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+	</div>
+	
+    <div data-role="content">
+    <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+    <p>
+     Kratos, siguiendo la palabra de los Dioses, realiza todo tipo de tareas. Entre ellas se destacan la de detener a Morfeo  de sucumbir el mundo en oscuridad o de combatir a los persas  en Ática
+    </p>	
+    <div align="center">
+    <img src="imagenes/god of.jpg" width="382" height="200" alt="">
+    </div>
+	</div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+
+		<h1>Victor Manuel Montes Hernandez</h1>
+	</div>
+</div>
+
+
+<div data-role="page" id="olimpo" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1>El ascenso al olimpo</h1>
+                <div align="center">
+        <a href="#principal" data-role="button" data-icon="home" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+	</div>
+	
+    <div data-role="content">
+    <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+    <p>
+El primer videojuego de la saga comienza con el guerrero en un barco luchando contra la Hidra , por encargo del Dios de los mares Poseidón . Previo a llegar a Esparta, Kratos sale a la cubierta en plena lluvia y le reprocha a Atenea  que luego de diez años de servicio, los Dioses no habían cumplido lo prometido. La Diosa le dice que aún faltaba una última misión, Ares estaba destruyendo Atenas por lo que la Diosa de dicha ciudad le pide a Kratos que detenga al Dios de la Guerra en su paso de destrucción ya que Zeus decretó que los Dioses no podían luchar entre ellos.
+
+Kratos llega a Atenas luego de combatir con un gran número de soldados no muertos , medusas  y minotauros , entre otros seres mitológicos. Luego de salvar al oráculo de Atenas de la muerte, Atenea le revela a Kratos que la única forma de que él pudiese asesinar a Ares era consiguiendo la Caja de Pandora  que se encontraba en el Templo de Pandora, encadenado a la espalda del Titán Cronos  en un inmenso desierto. El semidiós supera el desierto e ingresa en el templo, repleto de laberintos y enemigos. Finalmente consigue la Caja, pero es asesinado por Ares (quien al enterarse que el espartano había cumplido su misión, lanza una gran estaca de madera que le atraviesa el cuerpo). A pesar de ello, vuelve desde el Inframundo , llega donde estaba el Dios de la Guerra y mientras este hacía notar su victoria a Zeus , aprovecha para quitarle la Caja y abrirla. Al realizar esto, Kratos crece considerablemente y combate a Ares, a quien finalmente asesina. Pero luego de su gran tarea, Atenea le admite que ningún héroe, guerrero o incluso Dios podía olvidar lo que él había hecho. Totalmente desanimado, Kratos se lanza de la montaña más alta de toda Grecia  con el fin de suicidarse , pero al caer al abismo no muere, sino que se levanta hasta el lugar donde se lanzó, allí Atenea le explica que si bien Ares está muerto, el puesto de Dios de la Guerra quedó vacante por lo que le ofrece un puesto entre los Dioses, como el nuevo Dios de la Guerra, Kratos acepta convirtiéndose en un miembro del Olimpo
+
+    </p>	
+    <div align="center">
+    
+    <img src="imagenes/hsgdgh.jpg" width="382" height="200" alt="">
+    </div>
+	</div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+
+		<h1>Victor Manuel Montes Hernandez</h1>
+	</div>
+</div>
+
+
+<div data-role="page" id="asecino" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1>El asecino de Dioses</h1>
+                <div align="center">
+        <a href="#principal" data-role="button" data-icon="home" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+	</div>
+	
+    <div data-role="content">
+    <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+    <p>
+Tras los acontecimientos del primer God of War , Kratos está al frente de su ejército espartano  con el objetivo de conquistar Grecia . Si bien lucha junto a sus guerreros, es atacado por un número de criaturas dirigidas por el gigante Argos , que es enviado por Hera  para detener la guerra que Kratos está llevando a cabo. Sin embargo, antes de que Kratos pueda derrotar a la bestia, Argos es asesinado por un desconocido, en un esfuerzo para destruir la reputación del anti-héroe ante los Dioses del Olimpo. Kratos lo persigue a través de Grecia con el fin de descubrir la identidad del líder del asesino, que está tratando de poner a los Dioses en su contra. Sin embargo, el hijo de Hermes , Cérix , es enviado a entregar un mensaje a Kratos de parte de Zeus , que está cada vez más preocupado con la cantidad de destrucción que deja atrás Kratos. Cérix ordena detenerse a Kratos, pero el Dios de la Guerra se niega e inicia una gran batalla contra el mensajero. Aprovechando la situación, el asesino se escapa. Kratos mata a Cérix y los soldados espartanos lo celebran, pero al observar el cuerpo del Dios muerto se da cuenta de que Zeus tomará medidas de este acto de rebeldía.
+
+
+    </p>	
+    <div align="center">
+    
+    <img src="imagenes/PTOM Cover_ckim.jpg" width="191" height="237" alt="">
+    </div>
+	</div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+
+	<h1>Victor Manuel Montes Hernandez</h1>	
+	</div>
+</div>
+
+
+<div data-role="page" id="venganza" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1>La venganza</h1>
+                <div align="center">
+        <a href="#principal" data-role="button" data-icon="home" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+	</div>
+	
+    <div data-role="content">
+    <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+    <p>
+    Un general espartano invoca a Kratos para lograr la tan ansiada "Gloria de Esparta" que este había anhelado por años, el Dios de la Guerra desciende del Monte Olimpo , a pesar del intento de Atenea de detenerlo, a la ciudad de Rodas  y comienza a destruir todo a su paso, pero un Águila  se apoya sobre él y comienza a empequeñecerlo hasta devolverlo a su tamaño normal. Luego el Águila se coloca sobre el Coloso de Rodas  y le da vida con la energía robada a Kratos. El espartano cree que era Atenea. Zeus le entrega ayuda a Kratos ofreciéndole la Espada del Olimpo, con la que el Dios de los Dioses había acabado la Gran Guerra de Dioses y Titanes. Pero cuando Kratos trata de quitarla, comienza a perder sin saberlo, sus poderes divinos. Al fin, quita la espada del suelo y termina con el Coloso de Rodas. Pero cuando exclamaba mirando el cielo dirigiéndose a su padre, la mano del Coloso lo impacta accidentalmente y lo daña de gravedad, destruyendo su armadura y dejándolo muy débil. Zeus muestra que era él esa Águila que había robado los poderes de Kratos para dárselos al Coloso. Zeus entendía que Kratos, su hijo más poderoso, intentaría acabar con él, como ocurría en la mitología griega , así que decide matarlo. Ya en el Inframundo, Gaia , la Titánide, se presenta ante Kratos junto con los demás Titanes y le ofrece ayuda a cambio que él destrone a Zeus del Olimpo. Kratos acepta, sale del Inframundo y comienzo su viaje a la Isla de la Creación en busca de las Hermanas del Destino, para poder volver al pasado en el momento en que Zeus lo traicionó.
+
+En la isla, Kratos asesina a Teseo , Ícaro , Perseo , Euryale , el Kraken  y el jefe bárbaro con el que Kratos había acabado cuando Ares acudió en su ayuda. Finalmente se encuentra con las Hermanas del Destino y las asesina a las tres, pudiendo volver al pasado en el momento de la traición de Zeus. Vuelve, se enfrenta a él y lo vence, pero al momento de asesinarlo Atenea se cruza y sacrifica su vida, para evitar la muerte de Zeus, permitiéndole al Dios del Trueno escapar. Atenea  justifica su acción con el pretexto de que Kratos al asesinar a Zeus acabaría con todo el Olimpo, pero Kratos le dice que si el Olimpo se opone a su venganza, entonces el Olimpo también sucumbirá, Atenea entonces le confiesa a Kratos que no puede asesinar a Zeus dado a que se repetiría de este modo el ciclo de Hijo mata al Padre, dándole a entender a Kratos que Zeus es su padre. Tras esto, Atenea muere. Enfurecido, Kratos regresa a la cámara de las Hermanas del Destino para volver nuevamente al pasado, al momento de la Gran Guerra entre Titanes y Dioses y se lleva consigo a todos los Titanes a la época del presente para poder formular su tan ansiada venganza. En el final del juego, Kratos está sobre Gaia, y esta, con los demás Titanes, están escalando el Monte Olimpo en busca de asesinar a todos sus miembros, pero Zeus no le teme y prepara a los dioses para la batalla final.
+
+
+    </p>	
+    <div align="center">
+    <img src="imagenes/god of war kratos.jpg" width="385" height="200" alt="">
+    </div>
+	</div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+<h1>Victor Manuel Montes Hernandez</h1>	
+		
+	</div>
+</div>
+
+
+<div data-role="page" id="acerca" data-theme="a">
+	<div data-role="header" data-position="fixed">
+		<h1>Acerca de</h1>
+                <div align="center">
+        <a href="#principal" data-role="button" data-icon="home" data-iconpos="notext" data-inline="true">Menú</a>
+        </div>   
+	</div>
+	
+    <div data-role="content">
+    <div style="margin: 0 auto 0 auto; width:70%; height:80%;" align="justify">
+    <p>
+    Nombre:
+    <br>
+    Good Of War
+    <br>
+    Esta aplicacion fue echa por:
+    <br>
+    Victor Manuel Montes Hernandez
+   <br>
+   El dia 28 de mayo del 2014
+    <br>
+    modificada:
+    <br>
+   El dia 2 de junio de 2014
+    <br>
+    por Victor Manuel Montes Hernandez
+    <br>
+    Contiene:
+    <br>
+    Esta aplicacuion te relata la historia de
+    <br>
+     un gran gerrero que se convierte en el
+    <br>
+      dios de la guerra.
+    <br>
+    El al final mata a todos los dioses muy cruelmente  hasta su padre (Zeus)...
+    <br>
+   *Aplicacion disponible para:
+    <br>
+    Android
+    <br>
+    Windows Fone
+    <br>
+    Black Berry
+    <br>
+    i
+    </p>	
+    <div align="center">
+    <img src="imagenes/god of war kratos.jpg" width="385" height="200" alt="">
+    </div>
+	</div>
+    </div>
+	<div data-role="footer" data-position="fixed">
+<h1>Victor Manuel Montes Hernandez</h1>	
+		
+	</div>
+</div>
+    </body>
+
+</html>
